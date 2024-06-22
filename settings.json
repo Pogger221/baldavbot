@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "username",
+    "username": "Parneet51",
     "password": "",
     "type": "mojang"
   },
@@ -21,22 +21,22 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "pass"
+      "password": "davinderjindal51"
     },
 
     "anti-afk": {
-      "enabled": true,
-      "sneak": true
+      "enabled": false,
+      "sneak": false
     },
 
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 300,
+      "repeat-delay": 200,
 
       "messages": [
         "/skyblock",
-        "msg"
+        "/me &b&lSell &f&lCocoa &c&lAt &4&l/is warp Davinder51"
       ]
     },
 
