@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 const Movements = require('mineflayer-pathfinder').Movements;
 const pathfinder = require('mineflayer-pathfinder').pathfinder;
 const { GoalBlock } = require('mineflayer-pathfinder').goals;
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 1000;
 
 const config = require('./settings.json');
 const express = require('express');
