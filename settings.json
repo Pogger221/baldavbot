@@ -43,13 +43,15 @@
 
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-recconect-delay": 5000,
+    "auto-reconnect-delay": 5000,
 
     "mob-killer": {
       "enabled": true,
       "range": 30,
       "weapon-slot": 1,
-      "weapon-type": "sword"
+      "weapon-type": "sword",
+      "attack-mobs": true,   // New field to enable mob killing
+      "mob-blacklist": []    // Optionally, you can add specific mobs to blacklist
     }
   }
 }
