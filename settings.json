@@ -32,16 +32,24 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 150,
+      "repeat-delay": 100,
 
       "messages": [
         "/skyblock",
-        "/is warp herobest1 afk2"
+        "/is warp herobest1 farm",
+        "/me &b&lSell &f&lCocoa &c&lAt &4&l/is warp Davinder51 &b&l28M Per Stack"
       ]
     },
 
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-recconect-delay": 3000
+    "auto-recconect-delay": 5000,
+
+    "mob-killer": {
+      "enabled": true,
+      "range": 30,
+      "weapon-slot": 1,
+      "weapon-type": "sword"
+    }
   }
 }
